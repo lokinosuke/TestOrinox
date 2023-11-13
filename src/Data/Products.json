@@ -1,0 +1,23 @@
+[
+    {"id": 1, "name": "Smartphone XYZ", "price": 499.99, "image": "product.jpg"},
+    {"id": 2, "name": "Ordinateur Portable ABC", "price": 899.99, "image": "product.jpg"},
+    {"id": 3, "name": "Caméra HD123", "price": 299.99, "image": "product.jpg"},
+    {"id": 4, "name": "Téléviseur 4K SuperView", "price": 1299.99, "image": "product.jpg"},
+    {"id": 5, "name": "Casque Audio ProTech", "price": 149.99, "image": "product.jpg"},
+    {"id": 6, "name": "Tablette Graphique ArtistPro", "price": 349.99, "image": "product.jpg"},
+    {"id": 7, "name": "Enceinte Bluetooth BassMaster", "price": 79.99, "image": "product.jpg"},
+    {"id": 8, "name": "Appareil Photo DSLR MegaSnap", "price": 699.99, "image": "product.jpg"},
+    {"id": 9, "name": "Console de Jeu Xplorer", "price": 399.99, "image": "product.jpg"},
+    {"id": 10, "name": "Imprimante UltraPrint", "price": 199.99, "image": "product.jpg"},
+    {"id": 11, "name": "Écouteurs sans Fil AirTunes", "price": 129.99, "image": "product.jpg"},
+    {"id": 12, "name": "Moniteur Gaming SuperVision", "price": 499.99, "image": "product.jpg"},
+    {"id": 13, "name": "Robot Aspirateur CleanBot", "price": 299.99, "image": "product.jpg"},
+    {"id": 14, "name": "Montre Connectée FitLife", "price": 179.99, "image": "product.jpg"},
+    {"id": 15, "name": "Livre Électronique KindleX", "price": 69.99, "image": "product.jpg"},
+    {"id": 16, "name": "Imprimante 3D PrintMaster", "price": 599.99, "image": "product.jpg"},
+    {"id": 17, "name": "Écran PC WideVision", "price": 249.99, "image": "product.jpg"},
+    {"id": 18, "name": "Aspirateur Robot SmartSweep", "price": 349.99, "image": "product.jpg"},
+    {"id": 19, "name": "Smartwatch HealthTracker", "price": 159.99, "image": "product.jpg"},
+    {"id": 20, "name": "Scanner de Documents ScanPro", "price": 129.99, "image": "product.jpg"}
+]
+

@@ -1,0 +1,58 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{{ product.name }} Details{% endblock %}
+
+{% block stylesheets %}
+    {{ parent() }}
+    <style>
+        /* Add your custom styles here */
+        h1 {
+            color: #333;
+        }
+
+        .product-details-container {
+            margin: 20px;
+        }
+
+        img {
+            max-width: 100%; /* Make the image responsive */
+            height: auto; /* Prevent image distortion */
+            margin-bottom: 10px;
+        }
+
+        p {
+            margin-bottom: 8px;
+        }
+
+        a {
+            color: #007bff; /* Bootstrap's primary link color */
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        img {
+            max-width: 100px;
+            max-height: 100px;
+        }
+    </styl
+    </style>
+{% endblock %}
+
+{% block body %}
+    <div class="product-details-container">
+        <h1>{{ product.name }} Details</h1>
+
+        <div>
+            <img src="{{ asset('assets/images/' ~ product.image) }}" alt="image du produit" />
+        </div>
+        <p>{{ product.name }}</p>
+        <p>{{ product.price }} €</p>
+        <!-- Add other details as needed -->
+
+        <!-- Add a link back to the product list -->
+        <a href="{{ path('products') }}">Back to Product List</a>
+    </div>
+{% endblock %}

@@ -1,0 +1,46 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Produits{% endblock %}
+
+{% block stylesheets %}
+    {{ parent() }}
+    <style>
+        /* Add your custom styles here */
+        h1 {
+            color: #333;
+        }
+
+        .product-container {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .product-info {
+            margin-left: 20px;
+        }
+
+        img {
+            max-width: 100px;
+            max-height: 100px;
+        }
+    </style>
+{% endblock %}
+
+{% block body %}
+    <h1>Product List</h1>
+
+    <div>
+        {% for product in products %}
+            <div class="product-container">
+                <div>
+                    <img src="{{ asset('assets/images/' ~ product.image) }}" alt="image du produit" />
+                </div>
+                <div class="product-info">
+                    <p><a href="{{ path('product_details', {'id': product.id}) }}">{{ product.name }}</a></p>
+                    <p>{{ product.price }} €</p>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+{% endblock %}
