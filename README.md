@@ -1,3 +1,31 @@
+# Installation
+There are 2 different ways of installing this project depending on your needs:
+
+# You can clone the code repository and install its dependencies
+```plaintext
+$ git clone https://github.com/lokinosuke/TestOrinox.git my_project
+$ cd my_project/
+$ composer install
+```
+# Or you can download the Zip File and Set Up the Project
+Download the project zip file from the provided source and extract it to your desired location.
+
+Open your terminal and navigate to the project directory using the cd command:
+```plaintext
+$ cd path/to/your/project
+```
+Run the following command to install the project dependencies:
+```plaintext
+$ composer install
+```
+Start the Symfony development server with the following command:
+
+```plaintext
+$ symfony server:start
+```
+Your Symfony application should now be accessible at http://127.0.0.1:8000.
+
+
 # Product API Documentation
 
 ## Overview
