@@ -1,0 +1,15 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Product Not Found{% endblock %}
+
+{% block stylesheets %}
+    {{ parent() }}
+{% endblock %}
+
+{% block body %}
+    <h1>Product Not Found</h1>
+    <p>The requested product could not be found.</p>
+    <p>ID: {{ id }}</p>
+
+
+{% endblock %}
