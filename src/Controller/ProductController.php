@@ -46,7 +46,7 @@ class ProductController extends AbstractController
     }
 
     # display all the products
-    #[Route('/products', name: 'products')]
+    #[Route('/', name: 'products')]
     public function displayProducts(): Response
     {
         $products = $this->productDataManager->loadData();
